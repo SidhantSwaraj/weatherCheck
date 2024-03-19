@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.searchbar {
+  margin: 20px;
+}
+
+.searchbar input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.searchbar button {
+  padding: 10px, 20px;
+  font-size: 16px;
+  background-color: rgb(62, 221, 62);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weatherdisplay {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.weathercards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.weathercard {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.weathercard h3 {
+  margin-botton: 10px;
+  font-size: 20px;
+}
+
+.weathercard p {
+  font-size: 18px;
+  margin: 0;
+}
